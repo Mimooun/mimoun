@@ -1,0 +1,91 @@
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular';
+  color: black;
+}
+
+.profile  .content {
+  padding: 25px;
+  color: #434A62;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+.profile .container a {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  background-color: #6B72E1;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 6px;
+}
+.profile .container a:hover {
+  background-color: black;
+  color: white;
+}
+.profile h3 {
+  color: #7ECE90;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.profile .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  margin: 30px;
+}
+.profile .menu {
+  background-color: white;
+  margin-top: 100px;
+  padding: 20px 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  margin: 30px;
+}
+.profile .menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: initial;
+}
+ .profile i {
+  color: white;
+  font-size: 35px;
+}
+
+.profile .menu .li {
+  background-color: rgb(230, 230, 230);
+  padding: 5px;
+  border-radius: 5px
+}
+.profile .menu .li:hover{
+  background-color: black;
+}
+.profile .hs {
+  font-size: 26px;
+  font-weight: 100;
+}
+
+/* Responsive*/
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+
+}
